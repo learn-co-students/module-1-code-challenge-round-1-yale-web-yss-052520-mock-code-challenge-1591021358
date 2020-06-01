@@ -1,0 +1,12 @@
+=> [[32m#<Course:0x00005642e4bdd238[0m
+  @course_name[32m=[0m[31m[1;31m"[0m[31mcourse1[1;31m"[0m[31m[0m,
+  @student[32m=[0m[32m#<Student:0x00005642e4bdd648[0m @name[32m=[0m[31m[1;31m"[0m[31mstudent1[1;31m"[0m[31m[0m[32m>[0m,
+  @tutor[32m=[0m[32m#<Tutor:0x00005642e4bdd4e0[0m @name[32m=[0m[31m[1;31m"[0m[31mtutor1[1;31m"[0m[31m[0m[32m>[0m[32m>[0m,
+ [32m#<Course:0x00005642e4bdd0f8[0m
+  @course_name[32m=[0m[31m[1;31m"[0m[31mcourse3[1;31m"[0m[31m[0m,
+  @student[32m=[0m[32m#<Student:0x00005642e4bdd648[0m @name[32m=[0m[31m[1;31m"[0m[31mstudent1[1;31m"[0m[31m[0m[32m>[0m,
+  @tutor[32m=[0m[32m#<Tutor:0x00005642e4bdd440[0m @name[32m=[0m[31m[1;31m"[0m[31mtutor2[1;31m"[0m[31m[0m[32m>[0m[32m>[0m,
+ [32m#<Course:0x00005642e4bdcfb8[0m
+  @course_name[32m=[0m[31m[1;31m"[0m[31mcourse5[1;31m"[0m[31m[0m,
+  @student[32m=[0m[32m#<Student:0x00005642e4bdd648[0m @name[32m=[0m[31m[1;31m"[0m[31mstudent1[1;31m"[0m[31m[0m[32m>[0m,
+  @tutor[32m=[0m[32m#<Tutor:0x00005642e4bdd440[0m @name[32m=[0m[31m[1;31m"[0m[31mtutor2[1;31m"[0m[31m[0m[32m>[0m[32m>[0m]
