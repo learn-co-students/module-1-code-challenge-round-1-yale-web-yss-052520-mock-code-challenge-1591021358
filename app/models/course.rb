@@ -1,3 +1,20 @@
 class Course
 
+    #course_name not listed in README as changeable, so i assumed it was
+    attr_accessor :course_name
+    attr_reader :tutor, :student
+
+    @@all = []
+
+    def initialize(tutor, student, course_name)
+        @tutor = tutor
+        @student = student
+        @course_name = course_name
+        self.class.all << self
+    end
+
+    def self.all
+        @@all
+    end
+
 end
