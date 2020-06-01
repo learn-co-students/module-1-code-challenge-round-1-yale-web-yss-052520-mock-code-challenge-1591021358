@@ -1,7 +1,9 @@
 require "./app//models/modules.rb"
 
 class Student
-    include Person
+    include ClassMethods #this module contains all class methods needed
+    extend ClassMethods
+    include Person #this module contains all instanve methods associated with student and tutor classes
     
     #get all courses associated with student
     def courses
