@@ -1,3 +1,24 @@
 class Tutor
-  
+    attr_accessor :name
+    @@all = []
+    def initialize(name)
+        @name = name
+        @@all << self
+    end
+
+    def courses()
+        Course.all().select{|course| course.tutor == self}
+    end
+
+    def students()
+        courses().map{|course| course.student}
+    end
+
+    def tutored_student?(student)
+        students().include?(student)
+    end
+
+    def self.all()
+        @@all
+    end
 end
