@@ -13,11 +13,12 @@ class Student
     end
 
     def tutors
-        Tutor.all.select {|student| student.tutor == self}
+        # Tutor.all.select {|tutor| tutor.student == self}
+        self.courses.map { |course| course.tutor }
     end
     
     def courses
-        Course.all.select {|course| course.tutor == self}
+        Course.all.select {|course| course.student == self}
     end
 
     def enrolled_fulltime?
