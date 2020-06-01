@@ -1,6 +1,6 @@
 # Object Relations Code Challenge - FlatAClass
 
-We have three models: `Student`, `Tutor`, and `Course`.
+We have three classes: `Student`, `Tutor`, and `Course`.
 
 A `Student` has many `Course`s. A `Tutor` has many `Course`s. A `Course` belongs to a `Tutor` and belongs to a `Student`.
 
