@@ -81,14 +81,14 @@ Some of the methods listed are provided to you in the starter code. You should c
   - returns the `Student` instance associated with the `Course` instance
 
 #### Tutor
-
+# look into this one again if time
 - `Tutor#courses`
   - returns an array of `Course` instances associated with the `Tutor` instance.
 - `Tutor#students`
   - returns an array of `Student` instances tutored by the `Tutor` instance.
 
 #### Student
-
+# same here
 - `Student#courses`
   - returns an array of all the `Course` instances for the `Student`.
 - `Student#tutors`
