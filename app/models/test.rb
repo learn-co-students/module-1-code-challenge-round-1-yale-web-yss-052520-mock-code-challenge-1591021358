@@ -33,13 +33,19 @@ puts course.tutor
 
 
 Course.new(Tutor.new("kaleb"), Student.new("larissa"), "flatiron")
-Course.new(jesse, Student.new("larissa"), "flatiron")
-Course.new(Tutor.new("kaleb"), michael, "learn.co")
+Course.new(jesse, Student.new("peach"), "flatiron")
+Course.new(Tutor.new("brooklyn"), michael, "learn.co")
+
+
+
+print "STUDENTS: #{Student.all} \n"
+print "TUTORS: #{Tutor.all} \n"
+
 puts jesse.courses
 puts jesse.students.map{|student| student.name}
 
 puts michael.courses.map {|course| course.course_name}
-puts michael.tutors.map{|student| student.name}
+puts michael.tutors.map{|tutor| tutor.name}
 
 print "Has jesse tutored michael"
 puts jesse.tutored_student?(michael)

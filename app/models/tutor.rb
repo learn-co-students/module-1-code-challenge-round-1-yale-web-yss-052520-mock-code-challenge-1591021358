@@ -20,7 +20,7 @@ class Tutor
   end
 
   def students
-  	Course.all.select{|course| course.tutor == self}.map {|course| course.student}
+  	courses.map {|course| course.student}
   end
 
   def tutored_student?(student)

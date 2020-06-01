@@ -17,7 +17,7 @@ class Student
 	end
 
 	def tutors
-		Course.all.select{|course| course.student == self}.map {|course| course.tutor}
+		courses.map {|course| course.tutor}
 	end
 
 	def enrolled_fulltime?
